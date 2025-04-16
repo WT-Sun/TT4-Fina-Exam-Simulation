@@ -10,7 +10,7 @@ Each question is worth 0.5 points. Total: 10 points
 1. What is Docker?  
    - A) A relational database  
    - B) A web server  
-     **C) A container platform for creating and managing environments**  
+   -**C) A container platform for creating and managing environments**  
    - D) A frontend framework  
 
 2. Which command builds a Docker image from a Dockerfile?  
