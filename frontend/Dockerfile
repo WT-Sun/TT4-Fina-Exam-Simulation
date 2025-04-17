@@ -1,5 +1,5 @@
 FROM node:16
-WORKDIR /app
+WORKDIR /frontend
 COPY . .
 RUN npm install
 RUN npm run build

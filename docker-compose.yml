@@ -1,19 +1,19 @@
 version: "3.9"
 services:
-  api:
-    build: ./api
+  backend:
+    build: ./backend
     ports:
       - "5000:80"
     volumes:
-      - api_data:/app
+      - backend_data:/backend
     restart: always
 
-  app:
-    build: ./app
+  frontend:
+    build: ./frontend
     ports:
       - "3000:3000"
     depends_on:
-      - api
+      - backend
 
 volumes:
-  api_data:
+  backend_data:
